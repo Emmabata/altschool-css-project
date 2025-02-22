@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <main>
+        <div class="txt">
+            <img src="./Logo (1).png" alt="Logo" width="38.67px" height="40px" id="logo" class="logo">
+            <h2>For Individuals</h2>
+            <p>Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </div>
+        <div>
+            <form class="form" action="GET">
+                <div>
+                    <label for="firstName">First Name</label><br><br>
+                    <input type=" text" name="firstName" placeholder="first name" >
+                </div>
+                
+                <div>
+                    <label for="lastName">Last Name</label><br><br>
+                    <input type=" text" name="lastName" placeholder="last name">
+                </div>
+                
+                <div>
+                    <label for="gender">Gender</label><br><br>
+                <select name="gender" id="gender">
+                    <option value="select disabled" >Select here</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br>
+                </div>
+                
+                <div>
+                    <label for="dob">Date of Birth</label><br><br>
+                    <input type="date" id="dob" name="dob" placeholder="select here">
+                </div>
+
+                <div>
+                    <label for="weight">Weight (KG)</label><br><br>
+                    <input id="weight" name="weight" placeholder="Enter weight here" >
+                </div>
+                <div>
+                    <label for="height">Height (CM)</label><br><br>
+                    <input id="height" name="height" placeholder="Enter height here" >
+                </div>
+
+                <div>
+                    <label for="level">Activity Level</label><br><br>
+                    <select name="level" id="level">
+                        <option value="disabled selected">select here</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="password-container" >
+                    <label for="password">Password</label><br><br>
+                    <input type="password" id="password" name="password">
+                    <!-- <i class="eye-icon">&#128065;</i> -->
+                </div>
+
+                    <button class="register-button">Register</button>
+            </form>
+
+            <div class="foot">
+                <p >By clicking Register, you agree to our <span>Terms of Use</span> and our <span>Privacy Policy</span></p>
+            </div>
+        </div>
+
+        
+        
+    </main>
+</body>
+</html>

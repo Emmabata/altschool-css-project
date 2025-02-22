@@ -1,0 +1,159 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*HEADER STYLING*/
+.header{
+    width: 390px;
+    height: 382px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border-color: #999999;
+}
+span{
+    color: #009966;
+    font-weight: bold;
+}
+
+h1{
+    font-family: Lato;
+    font-weight: 800;
+    letter-spacing: -0.5%;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+
+
+.header-paragraph{
+    padding-left: 10px;
+    width: 342px;
+    height: 80px;
+}
+
+.header-paragraph p{
+    margin-top: -30px;
+}
+
+/* main styling */
+.main{
+    width: 498px;
+    height: 696px;
+    background-color: #666666;
+    z-index: 1;
+}
+.main-text{
+    position: absolute;
+    width: 390px;
+    height: 455px;
+    border-bottom-width: 8px;
+    background-color: white;
+    z-index: 2;
+
+
+}
+
+div .main-title{
+    position: absolute;
+    background-color: #FFBF00;
+    width: 5;
+    margin-right: -30px;
+    height: 80px;
+    top: 480px;
+    font-weight: 800;
+    font-family: lato;
+    border-bottom: 4px solid #666666;
+    z-index: 3;
+    
+}
+
+.main-title, h3{
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 90px;
+    font-size: 20px;
+    z-index: 3;
+}
+
+.main-text{
+    position: absolute;
+    margin-top: 90px;
+    padding-left: 24px;
+    width: 300px;
+    height: 240px;
+    z-index: 2;
+}
+
+.main-text, p{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 0px;
+}
+
+/*tablet view*/
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        width: 768px;
+    }
+    .header-paragraph {
+        padding-left: 10px;
+        width: 400px;
+        margin-bottom: 40px;
+    }
+    .divide {
+        width: 100%;
+    }
+    .main {
+        width: 768px; 
+    }
+    .main-title {
+        width: 280px;  
+    }
+    .main-title, h3 {
+        width: 280px;
+        font-size: 20px;
+        font-weight: bold;  
+    }
+    .main-text {
+        width: 700px;  
+    }
+} */
+
+
+/* desktop view*/
+/* @media (min-width: 1024px) {
+    header {
+        width: 1289px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header-paragraph {
+        padding-left: 10px;
+        width: 400px;  
+        bottom: 14px;
+    }
+    .divide {
+        width: 100%;  
+    }
+    .main {
+        width: 1280px; 
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+    }
+    .main-title {
+        
+    }
+    .main-title, h3 {
+        width: 334px;
+        font-size: 20px;
+        font-weight: bold;  
+    }
+    .main-text {
+        width: 808px;  
+    }
+} */
